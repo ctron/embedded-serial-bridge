@@ -3,7 +3,7 @@ authors = ["Jens Reimann <jreimann@redhat.com>"]
 edition = "2018"
 readme = "README.md"
 name = "embedded-serial-bridge"
-version = "0.2.0"
+version = "0.3.0"
 license = "Apache-2.0"
 
 repository = "https://github.com/ctron/embedded-serial-bridge"

@@ -93,7 +93,7 @@ dependencies = [
 
 [[package]]
 name = "embedded-serial-bridge"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
  "casey 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "cortex-m 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)",
