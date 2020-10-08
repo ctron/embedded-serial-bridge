@@ -106,7 +106,7 @@ dependencies = [
  "stm32f4 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "stm32f4xx-hal 0.8.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "stm32f7 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "stm32f7xx-hal 0.2.0 (git+https://github.com/ctron/stm32f7xx-hal?branch=feature/add_uart5_1)",
+ "stm32f7xx-hal 0.2.0 (git+https://github.com/stm32-rs/stm32f7xx-hal)",
 ]
 
 [[package]]
@@ -271,7 +271,7 @@ dependencies = [
 [[package]]
 name = "stm32f7xx-hal"
 version = "0.2.0"
-source = "git+https://github.com/ctron/stm32f7xx-hal?branch=feature/add_uart5_1#98ef4485b6a134b3f1c23918970f20a2ede9cb17"
+source = "git+https://github.com/stm32-rs/stm32f7xx-hal#51568f06614d80c3e9fdff56d6cd5706322dd67f"
 dependencies = [
  "as-slice 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "bare-metal 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -360,7 +360,7 @@ dependencies = [
 "checksum stm32f4 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)" = "11460b4de3a84f072e2cf6e76306c64d27f405a0e83bace0a726f555ddf4bf33"
 "checksum stm32f4xx-hal 0.8.3 (registry+https://github.com/rust-lang/crates.io-index)" = "b3a2f044469d1e3aff2cd02bee8b2724f3d5d91f3175e5d1ec99770320d16192"
 "checksum stm32f7 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e8e6dbd8bf0965421c0c76c09e05683e71243216bf4d87984c7f95ed53caa28c"
-"checksum stm32f7xx-hal 0.2.0 (git+https://github.com/ctron/stm32f7xx-hal?branch=feature/add_uart5_1)" = "<none>"
+"checksum stm32f7xx-hal 0.2.0 (git+https://github.com/stm32-rs/stm32f7xx-hal)" = "<none>"
 "checksum syn 1.0.41 (registry+https://github.com/rust-lang/crates.io-index)" = "6690e3e9f692504b941dc6c3b188fd28df054f7fb8469ab40680df52fdcc842b"
 "checksum typenum 1.12.0 (registry+https://github.com/rust-lang/crates.io-index)" = "373c8a200f9e67a0c95e62a4f52fbf80c23b4381c05a17845531982fa99e6b33"
 "checksum ufmt-write 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e87a2ed6b42ec5e28cc3b94c09982969e9227600b2e3dcbc1db927a84c06bd69"
