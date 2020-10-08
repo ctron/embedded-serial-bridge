@@ -30,14 +30,14 @@ The project uses `cargo-embed` from [probe.rs](https://probe.rs/) for flashing:
 Where `<config>` is one of the following:
 
 * `stm32f411` – [STM32F7411RE Nucleo 64](#stm32f411)
-* `stm32f4723` – [STM32F723-DISCOVERY](#stm32f723)
+* `stm32f723` – [STM32F723-DISCOVERY](#stm32f723)
 
 ## Configurations
 
 The following configurations are currently supported out of the box:
 
 ### STM32F7411RE Nucleo 64
-[stm32f411]: #stm32f411
+<a id="stm32f411"></a>
 
 | Type         | Port     |
 | ------------ | -------- |
@@ -71,7 +71,7 @@ See also:
   * [Product Page](https://www.st.com/en/evaluation-tools/nucleo-f411re.html)
 
 ### STM32F723-DISCOVERY
-[stm32f723]: #stm32f723
+<a id="stm32f723"></a>
 
 | Type         | Port     |
 | ------------ | -------- |
